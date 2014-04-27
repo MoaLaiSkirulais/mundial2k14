@@ -1,0 +1,41 @@
+/** WRAPPER */
+
+#wrapper {
+}
+
+/** HEADER */
+
+#header {
+}
+
+#header h1 a {
+	display: block;
+	width: 350px;
+	height: 210px;
+	background: url(images/homepage01.jpg) no-repeat left top;
+}
+
+/** MENU */
+
+#menu {
+}
+
+/** PAGE */
+
+#page {
+}
+
+/** CONTENT */
+
+#content {
+}
+
+/** SIDEBAR */
+
+#sidebar {
+}
+
+/** FOOTER */
+
+#footer {
+}
