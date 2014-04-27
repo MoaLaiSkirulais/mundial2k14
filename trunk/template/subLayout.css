@@ -1,0 +1,118 @@
+/** WRAPPER */
+
+.inputGoles{
+	width:20px;
+	text-align:center;
+}
+
+.tdGoles{
+	text-align:center;
+}
+
+.tdFinal{
+	text-align:center;
+	background-color:silver;
+	color:black;
+}
+
+.tdPuntos{
+	text-align:center;
+	background-color:#11ABDD;
+	color:white;	
+	font-weight:bold;	
+}
+
+.cierraEn{
+	background-color:#F7E16D;
+	color:black;
+}
+
+.fecha{
+	width:120px;
+	color: #11ABDD;
+}
+
+.flag{
+	width:20px;
+	border:0px solid blue;	
+}
+
+.flagIco{	
+	border:1px solid gray;
+}
+
+.powerUps{
+	width:100px;
+	border:0px solid blue;
+}
+
+.powerUp{
+	cursor:pointer;
+}
+
+.equipo{
+	width:100px;
+	border:0px solid blue;
+}
+
+.equipoL{
+	width:100px;
+	border:0px solid blue;
+	text-align:right;
+}
+
+#tblApuesta{
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+#powerUps{
+	width:550px;
+	margin-top:50px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	text-align:left;
+}
+
+#tblUsers{
+	width:400px;
+	/*margin-left:auto;*/
+	margin-right:auto;
+	text-align:left;
+}
+
+#tblRank{
+	width:600px;
+	/*margin-left:auto;*/
+	margin-right:auto;
+	text-align:left;
+}
+
+.titles{
+	width:550px;	
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	/*margin-bottom:25px;*/
+}
+
+.btnSave{
+	font-size:13px;
+}
+
+.msg{
+	color:red;
+	font-weight:bold;
+}
+
+.tooltip {
+	display:none;
+	background:transparent url("/sites/mundial2k10/lib/jquery/jTools/black_arrow.png");
+	font-size:12px;
+	height:70px;
+	width:160px;
+	padding:25px;
+	color:white;	
+}	

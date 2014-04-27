@@ -1,0 +1,248 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #D8F0FA url(images/bg01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #828282;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+h1 {
+}
+
+h2 {
+	padding: 0px 0px 3px 25px;
+	background: url(images/homepage05.gif) no-repeat left center;
+	font: normal 20px Tahoma, Arial, Helvetica, sans-serif;
+	color: #11ABDD;
+}
+
+h3 {
+	margin: 0px;
+	font-size: 11px;
+	color: #565656;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: justify;
+	line-height: 18px;
+}
+
+dl.list1 {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;
+	color: #9C9C9C;
+}
+
+dl.list1 dt {
+	float: left;
+	width: 95px;
+}
+
+dl.list1 dd {
+	margin-bottom: 10px;
+}
+
+dl.list1 a {
+}
+
+a {
+	color: #63990D;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+	margin: 0px 25px 0px 0px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+}
+
+.container {
+	width: 900px;
+	margin: 0px auto;
+	border:0px solid blue;
+	text-align:center;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header {
+	height: 210px;
+	background: url(images/bg02.jpg) no-repeat center top;
+}
+
+#header.epson {
+	background: url(images/bg02old.jpg) no-repeat center top;
+}
+
+/** MENU */
+
+#menu {
+	height: 133px;
+	background: url(images/bg03.jpg) no-repeat center top;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 51px 0px 0px 0px;
+	list-style: none;
+	text-align: center;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding: 0px 30px;
+	font: bold 13px Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/** PAGE */
+
+#page-bg {
+	background: url(images/bg04.jpg) repeat-y center top;
+}
+
+#page-bgtop {
+	background: url(images/bg05.jpg) no-repeat center top;
+}
+
+#page {
+	width: 800px;
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	width: 480px;
+}
+
+.homepage #content {
+	width: 375px;
+}
+
+.single #content {
+	float: none;
+	width: auto;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: right;
+	width: 270px;
+}
+
+.homepage #sidebar {
+	width: 375px;
+}
+
+/** FOOTER */
+
+#footer {
+	height: 100px;
+	background: url(images/bg06.jpg) no-repeat center top;
+	color: #84C0C8
+}
+
+#footer p {
+	margin: 0px;
+	padding: 60px 0px 0px 0px;
+	text-align: center;
+}
+
+#footer .legal {
+}
+
+#footer .links {
+}
+
+/** BOX STYLE 1 */
+
+.box-style1 {
+	width: 375px;
+	margin-bottom: 30px;
+	background: url(images/homepage06.jpg) repeat-y left top;
+}
+
+.box-style1 .bgtop {
+	background: url(images/homepage07.jpg) no-repeat left top;
+}
+
+.box-style1 .bgbtm {
+	padding: 25px 30px 15px 30px;
+	background: url(images/homepage08.jpg) no-repeat left bottom;
+}
+
+/** BOX STYLE 2 */
+
+.box-style2 {
+	width: 270px;
+	background: url(images/subpage1_01.jpg) repeat-y left top;
+}
+
+.box-style2 .bgtop {
+	background: url(images/subpage1_02.jpg) no-repeat left top;
+}
+
+.box-style2 .bgbtm {
+	padding: 25px 30px 15px 30px;
+	background: url(images/subpage1_03.jpg) no-repeat left bottom;
+}
+
+/** BOX2 */
+
+#box2 {
+	margin-bottom: 0px;
+}
